@@ -6,5 +6,6 @@ def compare(a, b):
     else:
         print(f'{a} == {b}')
 
-a, b = map(int, input().split())
-compare(a, b)
+if __name__ == '__main__':
+    a, b = map(int, input().split())
+    compare(a, b)
