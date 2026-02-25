@@ -27,6 +27,7 @@ def korean_number(num):
     #     case 10:
     #         return '십'
 
-num = int(input())
-korean_num = korean_number(num)
-print(korean_num)
+if __name__ == '__main__':
+    num = int(input())
+    korean_num = korean_number(num)
+    print(korean_num)
